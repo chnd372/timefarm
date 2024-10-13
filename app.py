@@ -4,7 +4,7 @@ from aiohttp import (
     ClientTimeout
 )
 from colorama import *
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 from fake_useragent import FakeUserAgent
 from faker import Faker
 from telethon.errors import (
